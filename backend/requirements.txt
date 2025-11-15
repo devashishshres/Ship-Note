@@ -31,5 +31,8 @@ typing_extensions==4.15.0
 charset-normalizer==3.4.4
 urllib3==2.5.0
 
+# For render
+gunicorn==22.0.0
+
 # Optional but recommended
 Werkzeug==3.1.3

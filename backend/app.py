@@ -608,4 +608,4 @@ if __name__ == '__main__':
     print("API available at: http://localhost:5000")
     print("Health check: http://localhost:5000/health")
     print("\n")
-    app.run(debug=True, port=5000)
+    app.run()
