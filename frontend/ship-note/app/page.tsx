@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import {
-  GitBranch,
   Sparkles,
   Loader2,
   Terminal,
@@ -73,7 +72,7 @@ export default function Page() {
       if (userInfo && userInfo.username) {
         setIsGitHubConnected(true);
         setGithubUsername(userInfo.username);
-        console.log("✅ GitHub connection restored:", userInfo.username);
+        console.log("GitHub connection restored:", userInfo.username);
       }
     }
   }, []);
@@ -83,9 +82,9 @@ export default function Page() {
     const verifyBackendConnection = async () => {
       try {
         await checkHealth();
-        console.log("✅ Backend connection successful");
+        console.log("Backend connection successful");
       } catch (error) {
-        console.error("❌ Backend connection failed:", error);
+        console.error("Backend connection failed:", error);
         toast.error(
           "Could not connect to backend. Make sure Flask server is running on port 5000."
         );
