@@ -2,6 +2,8 @@
 
 ShipNote is an AI-powered changelog generator that transforms git commits into user-friendly release notes. It uses Claude AI to create clean, categorized changelogs that anyone can understand.
 
+CHECK OUT SHIPNOTE: https://ship-note.vercel.app/
+
 ## Features
 
 - Web application for pasting git logs and generating changelogs
